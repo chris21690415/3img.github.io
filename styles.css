@@ -5,7 +5,7 @@
 #title {
   float: left;
   border:1px solid black;
-  width:1349px;
+  width:1347px;
   background-color:rgba(0, 0, 255, 0.555);
 }
 .title {
@@ -15,20 +15,20 @@
 }
 #contenedor {
   float:left;
-  height:495px;
+  height:490px;
   border:1px solid black;
 }
 #contenedor1 {
   float:left;
   border:2px solid black;
-  height:493px;
+  height:488px;
   background-color:rgba(0, 0, 255, 0.555);
   width:533px;
 }
 #contenedor2 {
   float:left;
   border:1px solid black;
-  width:1349px;
+  width:1347px;
   background-color:rgba(0, 0, 255, 0.555);
 }
 .boton {
