@@ -5,7 +5,7 @@
 #title {
   float: left;
   border:1px solid black;
-  width:1347px;
+  width:1349px;
   background-color:rgba(0, 0, 255, 0.555);
 }
 .title {
@@ -23,12 +23,12 @@
   border:2px solid black;
   height:495px;
   background-color:rgba(0, 0, 255, 0.555);
-  width:532px;
+  width:530px;
 }
 #contenedor2 {
   float:left;
   border:1px solid black;
-  width:1347px;
+  width:1349px;
   background-color:rgba(0, 0, 255, 0.555);
 }
 .boton {
