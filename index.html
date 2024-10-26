@@ -1,0 +1,55 @@
+<doctype html>
+  <head>
+  <meta charset="utf-8" />
+  <title>BMW</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<div id="title"><br>
+  <h2 class="title">BMW Model X6 M60i xDrive</h2><br>
+</div>
+
+<body>
+  <div id="contenedor"><br>
+    <img id="myImage" src="frentelateral.png" class="imgbig"><br>
+  </div>
+
+  <div id="contenedor1"><br>
+    <h2 class="tcontent1">BMW X6 M60i xDrive:</h2>
+    <p class="tcontent1">Consumo de combustible, promedio WLTP en km/l: 11.4<br>
+      Emisiones de CO2, promedio WLTP en g/km: 206.0</p><br>
+
+    <p id="precio" class="info">1,780,000 MXN<button class="boton" type="button" onclick="dineros('precio')">?</button></p><br>
+
+    <button type="button" onclick="document.getElementById('info').style.display='block'">Mostrar Informacion</button>
+    <button type="button" onclick="document.getElementById('info').style.display='none'">Ocultar Informacion</button>
+    <p id="info" class="info">El nuevo BMW X6 combina el máximo dinamismo de conducción deportivo con un diseño atlético y un equipamiento exclusivo: Potente motor de combustión de 8 cilindros BMW M TwinPower Turbo con 530 hp Máximo confort de marcha gracias al cambio deportivo Steptronic de 8 velocidades Poderosa presencia gracias a la parrilla BMW 'Iconic Glow' iluminada y al paquete M Sport de serie Tecnologías modernas y materiales exclusivos como los acabados de cristal 'CraftedClarity' (OPCIONAL)</p>
+  </div>
+
+  <div id="contenedor2">
+    <button onclick="document.getElementById('myImage').src='frentelateral.png'">
+      <img src="frentelateral.png" class="img"></button>
+    
+      <button onclick="document.getElementById('myImage').src='frente.png'">
+      <img src="frente.png" class="img"></button>
+  
+      <button onclick="document.getElementById('myImage').src='lateral.png'">
+      <img src="lateral.png" class="img"></button>
+  
+      <button onclick="document.getElementById('myImage').src='traserolateral.png'">
+      <img src="traserolateral.png" class="img"></button>
+  
+      <button onclick="document.getElementById('myImage').src='atras.png'">
+      <img src="atras.png" class="img"></button>
+  
+      <button onclick="document.getElementById('myImage').src='interiorfrente.png'">
+      <img src="interiorfrente.png" class="img"></button>
+  
+      <button onclick="document.getElementById('myImage').src='interioratras.png'">
+      <img src="interioratras.png" class="img"></button>
+  </div>
+
+<script src="carro.js"></script>
+</body>
+
+</doctype>
