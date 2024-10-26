@@ -15,15 +15,15 @@
 }
 #contenedor {
   float:left;
-  height:495;
+  height:495px;
   border:1px solid black;
 }
 #contenedor1 {
   float:left;
   border:2px solid black;
-  height:495px;
+  height:493px;
   background-color:rgba(0, 0, 255, 0.555);
-  width:530px;
+  width:533px;
 }
 #contenedor2 {
   float:left;
@@ -50,7 +50,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .imgbig {
-  width:800px;
+  width:810px;
 }
 .img {
   width:165px;
